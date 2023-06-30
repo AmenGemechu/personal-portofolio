@@ -30,6 +30,10 @@
     background-color: #525252;
 }
 
+.bg-color-work-history {
+    background-color: #9b59b6;
+}
+
 /* Special paddings/margin/text */
 h1,
 h2,
@@ -62,6 +66,7 @@ h4 {
     float: none;
 }
 
+.history-heading,
 .section-heading {
     font-family: "Exo" sans-serif;
     font-weight: 300;
@@ -283,4 +288,28 @@ footer {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/*Project history*/
+
+.history-heading {
+    color: #fafafa;
+    margin: 50px;
+}
+
+.timeline-item {
+    padding: 43m 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.project-link {
+    background-color: rgba(25, 25, 25, 0.4);
+    color: #fafafa;
 }
