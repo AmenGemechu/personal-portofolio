@@ -274,7 +274,7 @@ footer {
 .progress {
     position: relative;
     height: 25px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 
 .progress-type {
@@ -287,7 +287,7 @@ footer {
 }
 
 .progress-section {
-    margin: 40px 20px;
+    margin: 100px 20px;
 }
 
 /*Project history*/
@@ -297,19 +297,35 @@ footer {
     margin: 50px;
 }
 
-.timeline-item {
-    padding: 43m 2em 0em 2em;
+.project-item {
+    padding: 1em 2em 0em 2em;
     position: relative;
     color: #fafafa;
     border-left: 1px solid;
 }
 
-.timeline-item p {
+.priject-item p {
     padding: 0;
     margin: 0;
 }
 
 .project-link {
-    background-color: rgba(25, 25, 25, 0.4);
+    background-color: rgba(25, 25, 25, 0.3);
     color: #fafafa;
+}
+
+.project-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.project-items {
+    margin-bottom: 30px;
 }
