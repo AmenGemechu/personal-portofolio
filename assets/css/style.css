@@ -363,6 +363,12 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
+/* ----------------------------------------Gallary */
+
+.gimg {
+
+}
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
