@@ -70,9 +70,9 @@ h4 {
 
 .section-column {
   display: table-cell;
-  padding: 0 30px 30px;
+  padding: 0;
   float: none;
-
+  padding-left: 20px;
 }
 
 .history-heading,
@@ -182,7 +182,7 @@ h4 {
 }
 
 .project-item {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 /* ----------------------------------------Footer */
