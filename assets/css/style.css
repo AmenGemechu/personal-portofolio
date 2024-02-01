@@ -238,6 +238,14 @@ footer {
 #footer-details {
   padding: 20px;
 }
+/* ----------------------------------------Welcome */
+.welcome {
+  margin-bottom: 8%; 
+}
+
+.welcome-header h3 {
+  text-align: center;
+}
 
 /* ----------------------------------------Three Reasons */
 
@@ -248,6 +256,7 @@ footer {
 
 .three-reasons-heading {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 /* ----------------------------------------Personal Info */
