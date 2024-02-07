@@ -79,7 +79,7 @@ h4 {
 .history-heading,
 .section-heading {
   font-family: "Exo", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   margin-top: 25px;
   margin-bottom: 40px;
   color: #fafafa
@@ -241,9 +241,10 @@ footer {
 /* ----------------------------------------Welcome */
 .welcome {
   margin-bottom: 8%; 
+  padding: 3%;
 }
 
-.welcome-header h3 {
+.welcome-header {
   text-align: center;
 }
 
@@ -260,9 +261,13 @@ footer {
 }
 
 /* ----------------------------------------Personal Info */
+.personal-info-header {
+  text-align: center;
+}
 
 .personal-info-item {
   margin-bottom: 20px;
+  margin-top: 30px;
   display: block;
   clear: both;
 }
