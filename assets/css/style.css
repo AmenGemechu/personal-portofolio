@@ -25,6 +25,10 @@
   background-color: #fff;
 }
 
+.title-p {
+  color: #fafafa;
+}
+
 .ui-menu-color-home {
   background-color: #5e2020e8;
 }
@@ -82,7 +86,9 @@ h4 {
   font-weight: 500;
   margin-top: 25px;
   margin-bottom: 40px;
-  color: #fafafa
+  color: #fafafa;
+  text-align: center;
+ 
 }
 
 /*--------------------------------------------Heading*/
@@ -252,7 +258,7 @@ footer {
 
 .three-reasons-icon {
   font-size: 26px;
-  color: #e67e22;
+  color: h#353332;
 }
 
 .three-reasons-heading {
